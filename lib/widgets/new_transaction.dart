@@ -25,6 +25,7 @@ class _NewTransactionState extends State<NewTransaction> {
       enteredAmount,
     );
 
+    Navigator.of(context).pop(); // show the top of the sheet
   }
 
   @override
